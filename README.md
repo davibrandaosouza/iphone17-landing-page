@@ -1,16 +1,28 @@
-# React + Vite
+# iPhone 17 — React Learning Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React + Vite project that reproduces an iPhone product page UI. This repository was created to learn and practice fundamental React concepts and modern frontend tooling.
 
-Currently, two official plugins are available:
+## Goals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Learn core React concepts: components, props, lists, and composition.
+- Practice project structure and module imports with Vite.
+- Use Tailwind CSS utility classes for styling and responsive layout.
+- Split shared data into reusable modules.
 
-## React Compiler
+## What I learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Creating and composing React function components.
+- Importing/exporting shared data between modules.
+- Using Vite for fast dev server and explicit `.js` imports.
+- Basic responsive layouts with Tailwind CSS (`flex`, `grid`, breakpoints).
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (JSX)
+- Vite
+- Tailwind CSS
+- Node.js / npm
+
+## License
+
+This repository is for learning purposes. Use and modify freely.
