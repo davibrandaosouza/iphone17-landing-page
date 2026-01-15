@@ -63,7 +63,7 @@ function Highlights() {
           <h3 className="font-bold text-4xl mb-8">
             Sistema de câmera Pro avançado
           </h3>
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {specs.map((spec, index) => (
               <div
                 key={index}
