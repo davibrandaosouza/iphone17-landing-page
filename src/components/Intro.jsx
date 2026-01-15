@@ -1,4 +1,5 @@
-import { specsIntro as specs } from "../types/specsIntro.types.js";
+import { specsIntro as specs } from "../data/specsIntro.js";
+import Button from "../components/ui/Button.jsx";
 
 function Intro() {
   return (
@@ -15,12 +16,12 @@ function Intro() {
       </div>
 
       <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-16">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-500/50 cursor-pointer">
+        <Button variant="primary" size="lg">
           Compre agora
-        </button>
-        <button className="border-2 border-white rounded-full hover:bg-white hover:text-black text-white px-8 py-4 text-lg font-medium transition-all duration-300 hover:scale-105 cursor-pointer">
+        </Button>
+        <Button variant="outline" size="lg">
           Saiba mais
-        </button>
+        </Button>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto max-w-5xl">

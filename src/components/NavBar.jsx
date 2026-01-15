@@ -1,3 +1,5 @@
+import Button from "../components/ui/Button.jsx";
+
 function NavBar() {
   return (
     <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50">
@@ -11,12 +13,12 @@ function NavBar() {
         <a href="#camera" className="hover:text-gray-300">
           Câmera
         </a>
-        <a href="#cores" className="hover:text-gray-300">
+        <a href="#colors" className="hover:text-gray-300">
           Cores
         </a>
-        <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full">
+        <Button variant="primary" size="sm">
           Comprar
-        </button>
+        </Button>
       </div>
     </nav>
   );

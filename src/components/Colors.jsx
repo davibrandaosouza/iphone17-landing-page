@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { colors } from "../types/colors.types.js";
-import { models } from "../types/models.types.js";
+import { colors } from "../data/colors.js";
+import { models } from "../data/models.js";
 
 function Colors() {
   const [selectedColor, setSelectedColor] = useState("blue");
 
   return (
-    <section id="colors" className="bg-black py-20 px-8">
+    <section id="colors" className="bg-black py-20 px-8 scroll-mt-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-5xl mb:text-6xl font-bold mb-4">
@@ -17,9 +17,9 @@ function Colors() {
           </p>
         </div>
 
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-8">
           <div className="relative w-full max-w-3xl">
-            <div className="relative flex items-center justify-center min-h-125">
+            <div className="relative flex items-center justify-center min-h-50">
               <img
                 src={colors.find((color) => color.id === selectedColor).image}
                 alt="iPhone 17 Pro"

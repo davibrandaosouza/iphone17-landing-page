@@ -1,4 +1,4 @@
-import { sections } from "../types/sections.types.js";
+import { sections } from "../data/sections.js";
 
 const buttonLinks = ["Política de Privacidade", "Termos de Uso", "Vendas"];
 

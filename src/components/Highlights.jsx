@@ -1,8 +1,8 @@
-import { specsHighlights as specs } from "../types/specsHighlights.types.js";
+import { specsHighlights as specs } from "../data/specsHighlights.js";
 
 function Highlights() {
   return (
-    <section className="bg-black py-20 px-6" id="design">
+    <section className="bg-black py-20 px-6 scroll-mt-24" id="design">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-4">Design revolucionário</h2>
@@ -38,7 +38,10 @@ function Highlights() {
           </div>
         </div>
 
-        <div className="bg-gray-900 rounded-3xl p-12 mb-16" id="performance">
+        <div
+          className="bg-gray-900 rounded-3xl p-12 mb-16 scroll-mt-24"
+          id="performance"
+        >
           <h3 className="text-4xl font-bold mb-6 text-gradient">A18 Pro</h3>
           <p className="text-gray-300 mb-6">
             O chip mais poderoso em um smartphone
@@ -56,7 +59,7 @@ function Highlights() {
           </ul>
         </div>
 
-        <div className="text-center" id="camera">
+        <div className="text-center scroll-mt-24" id="camera">
           <h3 className="font-bold text-4xl mb-8">
             Sistema de câmera Pro avançado
           </h3>
